@@ -17,4 +17,3 @@ let valueInNumber= Number(score)
  let stringNumber= String(valuesomenumber)
  console.log(stringNumber);
  
-console.log("Ben")
