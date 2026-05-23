@@ -12,8 +12,15 @@ let valueInNumber= Number(score)
  //null =>0
  //undefined=> Nan
 
- let valuesomenumber=45
+ //let valuesomenumber=45
 
- let stringNumber= String(valuesomenumber)
- console.log(stringNumber);
+ //let stringNumber= String(valuesomenumber)
+ //console.log(stringNumber);
+ //*******************************Operations****************
+console.log(2>1);
+console.log(2>=1);
+console.log(2<1);
+
+
+ 
  
