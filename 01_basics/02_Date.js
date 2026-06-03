@@ -12,13 +12,15 @@ let myDate= new Date()
 
 // let mytimestamp = Date.now()
 // console.log(mytimestamp);
-// console.log(mycurrentDate.getTime());
+ //console.log(mycurrentDate.getTime());
 
-// console.log(Math.floor(Date.now()/1000));
+ console.log(Math.floor(Date.now()/1000));
 myDate.toLocaleString('default',{
     day:"2-digit"
 })
 
 console.log(myDate);
+
+
 
 

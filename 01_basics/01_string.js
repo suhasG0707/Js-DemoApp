@@ -12,8 +12,8 @@ const Balance= new Number(15000)
 const othernumber=25.75
 //  console.log(othernumber.toPrecision(3));
  const hundreds=100000
-//  console.log(hundreds.toLocaleString('en-IN'));
- ///++++++++++++++++++++++++Mathas+++++++++++++++++++++++++++++++
+  console.log(hundreds.toLocaleString('en-IN'));
+///++++++++++++++++++++++++Mathas+++++++++++++++++++++++++++++++
 //  console.log(Math);
 //  console.log(Math.abs(-17.8));// use to absolate value
 //  console.log(Math.round(18.6)); // use round number

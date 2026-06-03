@@ -11,10 +11,11 @@ console.log(myArr[0]);
 // myArr.push(7)// Add new Value
 // console.log(myArr);
 // myArr.pop()// Remove Last Value
-//myArr.unshift(9) //  Add first Value
-// myArr.shift()// Remove First Value
+myArr.unshift(9) //  Add first Value
+myArr.shift()// Remove First Value
 // console.log(myArr.includes(9));// find value in Array
-const newArr= myArr.join()
-console.log(myArr);
-console.log(newArr);
-console.log(typeof newArr)
+
+// const newArr= myArr.join()
+// console.log(myArr);
+// console.log(newArr);
+// console.log(typeof newArr);
