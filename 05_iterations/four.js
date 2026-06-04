@@ -6,7 +6,7 @@ const myobject={
 }
 for (const key in myobject) {
     
-    //console.log(`${key} shortcut is for ${myobject[key]}`);
+    // console.log(`${key} shortcut is for ${myobject[key]}`);
     
     
 }

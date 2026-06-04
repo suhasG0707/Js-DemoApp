@@ -22,6 +22,7 @@ for (const [key,value] of map) {  // Array D-Stracture
     
 }
 
+
 const myobject={
     geme1:'NFS',
      game2:'spiderman'

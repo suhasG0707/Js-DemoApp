@@ -4,6 +4,7 @@ while (Index<=10) {
     console.log(`vlaue of Index is ${Index}`);
     Index=Index+2
 }
+
 let myArray=["flash","batman"]
 let arr=0
 while (arr<myArray.length) {
