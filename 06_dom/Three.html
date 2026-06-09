@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> NEW DATA SHOWING on THREE</title>
+</head>
+<body style="background-color:#212121; color:#fff;">
+    
+</body>
+<script>
+//  const div = document.createElement('div')
+//     console.log(div);
+//     div.className='main'
+//     div.id= Math.round(Math.random()*10+1)
+//     div.setAttribute('title','New Created Div')
+//     div.style.backgroundColor='orange'
+//     div.style.padding='20px'
+//     //div.innerText='This is a new div element'
+//     const addtext=document.createTextNode('SUHAS G create')
+//     div.appendChild(addtext)
+//     document.body.appendChild(div)
+    
+ const data=document.createElement('div')
+    data.className='main'
+    data.id= Math.round(Math.random()*10+1)
+    data.setAttribute('title','New Added Data')   
+    data.style.backgroundColor='purple'
+    data.style.padding='20px'
+    data.style.margin='20px'
+    const addtext=document.createTextNode(`MY favorite Color is ${data.style.backgroundColor}`)
+    data.appendChild(addtext)
+    document.body.appendChild(data)
+
+</script>
+   
+</html>
