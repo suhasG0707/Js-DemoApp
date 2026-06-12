@@ -18,7 +18,10 @@ const buttons = document.querySelectorAll('.button');
       body.style.backgroundColor=e.target.id;
      }
       if (e.target.id === 'blue') {
-      body.style.backgroundColor='orange'
+      body.style.backgroundColor=e.target.id
+     }
+      if (e.target.id === 'purple') {
+      body.style.backgroundColor=e.target.id
      }
    });
  })
