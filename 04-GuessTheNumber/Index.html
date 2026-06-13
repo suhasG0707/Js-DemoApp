@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUHAS G CHANAL</title>
+    <link rel="stylesheet" href="../04-GuessTheNumber/style.css">
+</head>
+<body style="background-color: #212121;color: #fff;">
+    <div id="wrapper">
+     <h1>Number Guessing Game</h1>
+     <p>Try and gues a random number between 1 and 100</p>
+     <p>You have 10 attempts to gues the right number.</p>
+    </br>
+    <form class="form">
+        <label for="guessfiled" id="guess">Guess a Number</label>
+        <input type="text" id="guessfiled" class="guessfiled">
+        <input type="submit" id="subt" value="submit guess" class="guessfiled">
+    </form>
+    <div class="resultparas">
+        <P>previous guesses: <span class="guesses"></span></P>
+        <P>Guesses Ramaining: <span class="lastResult">10</span></P>
+        <P class="loworhi"></P>
+
+    </div>
+    </div>
+    <script src="Script.js"></script>
+</body>
+</html>
