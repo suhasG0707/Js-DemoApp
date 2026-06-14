@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>htlml element</title>
+</head>
+<body style="background-color: #414141; color: aliceblue;">
+    <h2>Amazing Images</h2>
+    <div>
+    <ul id="images">
+    <li><img width="200px" id="photoshop" src="" 
+         alt="https://images.pexels.com/photos/7752991/pexels-photo-7752991
+         .jpeg?auto=comparess&cs=tinysrgb&w=1600&lazy=load" alt="photoshop" ></li>
+
+    <li><img width="200px" id="food" src="" 
+         alt="https://images.pexels.com/photos/37368106/pexels-photo-37368106
+         .jpeg?auto=comparess&cs=tinysrgb&w=1600&lazy=load" alt="photoshop" ></li>
+
+    <li><img width="200px" id="madicin" src="" 
+         alt="https://images.pexels.com/photos/19717727/pexels-photo-19717727
+         .jpeg?auto=comparess&cs=tinysrgb&w=1600&lazy=load" alt="" ></li>
+
+    <li><img width="200px" id="milk" src="" 
+         alt="https://images.pexels.com/photos/3735169/pexels-photo-3735169
+         .jpeg?auto=comparess&cs=tinysrgb&w=1600&lazy=load" alt="" ></li>
+
+    <li><img width="200px" id="nature" src="" 
+         alt="https://images.pexels.com/photos/31042223/pexels-photo-31042223
+         .jpeg?auto=comparess&cs=tinysrgb&w=1600&lazy=load" alt="" ></li>
+
+    <li><img width="200px" id="sunset" src="" 
+         alt="https://images.pexels.com/photos/24284863/pexels-photo-24284863
+         .jpeg?auto=comparess&cs=tinysrgb&w=1600&lazy=load" alt="" ></li>
+
+   <li><a style="color: aliceblue;" href="https://google.com" id="google">Google</a></li>
+        </ul>
+</div>      
+</body>
+<script>
+    // document.getElementById('milk').onclick=function () {
+    //     alert('milk')
+    // }
+// Event - type to check , timestamp,defaultPrevented
+// target, toElement,srcElementm, CurrentTarget
+// clientX, clientY,screenX, ScreenY
+// altKey,ctrlkey,shiftkey,keycode
+//     document.getElementById('images').addEventListener('click',function (e) {
+//        console.log('Clicked insdide the ul');
+       
+//     },false) // Moden using this funcation is call event babling
+
+//     document.getElementById('milk').addEventListener('click',function (e) {
+//        console.log('Milk is freash');
+//        e.stopPropagation()// do not go 
+//     },false) 
+
+
+// document.getElementById('google').addEventListener('click',function (e) { 
+//      e.preventDefault()
+//      console.log('google click');
+//     e.stopPropagation},false)
+
+
+document.querySelector('#images').addEventListener('click',function (e) {
+    //console.log(e.target.parentNode);
+    console.log(e.target.tagName);
+    if (e.target.tagName=='IMG') {
+        console.log(e.target.id);
+        let removeit=e.target.parentNode
+     removeit.remove()
+        
+    }
+   
+    // removeit.parentNode.removeChaild(removeit)
+
+})
+
+</script>
+</html>

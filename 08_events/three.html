@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Room 410 with JS</h1>    
+    <button id="start"> Start </button>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    const totaydate=function(str){
+    console.log(str,Date.now());
+    
+   }
+   let IntervalidM;
+ const intervalid= function(){
+    IntervalidM=  setInterval(totaydate,1000);
+ }
+
+
+ document.querySelector('#start').addEventListener
+('click',intervalid)
+
+const Stopintervalid= function(){
+    clearInterval(IntervalidM)
+    IntervalidM=null;
+}
+
+document.querySelector('#stop').addEventListener
+('click',Stopintervalid)
+ //clearInterval(intervalid)
+
+</script>
+</html>
